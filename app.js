@@ -1,0 +1,93 @@
+    // var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    //     var evenarr = []
+    //     for (var i = 0; i < arr.length; i++) {
+    //         if (arr[i] % 2 == 0) {
+    //             evenarr.push(arr[i])
+    //         }
+    //     }
+    //     console.log(evenarr)
+
+
+    //     var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    //     var oddarr = []
+    //     for (var i = 0; i < arr.length; i++) {
+    //         if (arr[i] % 2!= 0) {
+    //              oddarr.push(arr[i])
+    //         }
+    //     }
+    //     console.log(oddarr)
+
+
+
+    //     var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    //     var newarr = []
+    //     for (var i = 0; i < arr.length; i++) {
+    //            newarr.push(arr[i]+1) 
+    //     }
+    //     console.log(newarr)
+
+
+    //     var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    //     var newarr = []
+    //     for (var i = 0; i < arr.length; i++) {
+    //         newarr.push(arr[i] * 5)
+    //     }
+    //     console.log(newarr)
+
+
+
+    //     var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    //     for (var i = arr.length-1; i >=0 ; i--) {
+    //         console.log(arr[i])
+
+    //     }
+
+
+    //     var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    //     var newarr = []
+    //     for (var i = 0; i < arr.length; i++) {
+    //         newarr.push(arr[i])
+    //     }
+    //     console.log(newarr)
+
+
+    //     var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    //     var newarr = [12,21,12,23,4]
+    //     for (var i = 0; i < arr.length; i++) {
+    //         newarr.push(arr[i])
+    //     }
+    //     console.log(newarr)
+
+
+    //     var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    //     var sum = 0
+    //     for (var i = 0; i < arr.length; i++) {
+    //         if (arr[i] % 2 == 0) {
+    //            sum = sum+ arr[i]
+    //         }
+    //     }
+    //     console.log(sum)
+
+
+
+    //     var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    //     var sum = 0
+    //     for (var i = 0; i < arr.length; i++) {
+    //         if (arr[i] % 2!= 0) {
+    //            sum = sum+ arr[i]
+    //         }
+    //     }
+    //     console.log(sum)
+
+
+
+        var arr = [1, -2, 3, 4, -5, -6, -7]
+        for (var i = 0; i < arr.length; i++) {
+            if(arr[i] < 0){
+               arr[i] = 0
+    
+            }
+     
+        }
+       
+        console.log(arr)
